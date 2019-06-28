@@ -1,0 +1,31 @@
+{
+  "name": "@cubi/git-code-picker",
+  "version": "0.0.1",
+  "description": "get a single file or folder from git remote",
+  "author": "SUNTOPO",
+  "bin": {
+    "git-code-picker": "./bin/picker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suntopo/git-code-picker.git"
+  },
+  "keywords": [
+    "file pick",
+    "folder picker",
+    "code picker",
+    "git"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suntopo/git-code-picker/issues"
+  },
+  "homepage": "https://github.com/suntopo/git-code-picker#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.4.1",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.8.3"
+  }
+}
