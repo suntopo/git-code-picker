@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const chalk = require('chalk');
 const figlet = require('figlet');
 const inquirer = require('inquirer');
@@ -42,7 +44,7 @@ const codePicker = async () => {
   if (!path.isAbsolute(localpath)) {
     localpath = path.join(process.env.PWD, localpath);
   }
-  mkdirp.sync(mkdirp);
+  mkdirp.sync(localpath);
 
   const { confirm } = await inquirer.prompt([
     {
